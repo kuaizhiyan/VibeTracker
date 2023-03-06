@@ -30,11 +30,11 @@ git clone https://github.com/kuaizhiyan/VibeTracker.git
 
 1. 配置VC++目录->包含目录
 
-   ```
-   D:\opencv420\opencv-build\install\include\opencv2
-   D:\opencv420\opencv-build\install\include
-   D:\dlib-19.24\install\include
-   ```
+```
+D:\opencv420\opencv-build\install\include\opencv2
+D:\opencv420\opencv-build\install\include
+D:\dlib-19.24\install\include
+```
 
 2. 配置VC++目录->库目录
 
