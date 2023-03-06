@@ -13,10 +13,8 @@ int main() {
 		
 	Mat frame, gray, mask;//一帧图像，灰度化，前景
 	VideoCapture capture;
-	//capture.open("D:\\MOT_LOCAL\\dataset\\kftest.mp4");//输入端口
-	//capture.open("D:\\MOT_LOCAL\\Radar\\visiontraffic--good.avi");//输入端口
-	//capture.open("D:\\MOT_LOCAL\\Radar\\test2.mp4");// MOT1 输入端口
-	capture.open("D:\\MOT_LOCAL\\Radar\\car.avi");//输入端口
+	
+	capture.open("C:\\Users\\dell\\Desktop\\testvideo\\car.avi");//输入端口
 
 	if (!capture.isOpened())
 	{

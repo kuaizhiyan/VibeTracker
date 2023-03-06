@@ -8,7 +8,7 @@
 #include <dlib/optimization/max_cost_assignment.h>
 
 #define INF 0x3fffffff
-using namespace std;
+using namespace std; 
 
 
 short visit[4000][700];				// 用于 bfs 中访问控制，为避免重复申请内存声明为全局变量
@@ -140,7 +140,7 @@ float iou(const bbox& box1, const bbox& box2)
 	float w = max((float)0, xx2 - xx1);
 	float h = max((float)0, yy2 - yy1);
 	float wh = w * h;						//求交集面积
-	cout << "wh: " << wh << endl;
+	//cout << "wh: " << wh << endl;
 	float o = (float)wh / ((box1.x2 - box1.x1) * (box1.y2 - box1.y1) + (box2.x2 - box2.x1) * (box2.y2 - box2.y1) - wh);
 
 	if (o <= 1e-9) return 0.0;
