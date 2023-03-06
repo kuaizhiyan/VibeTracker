@@ -18,14 +18,13 @@ git clone https://github.com/kuaizhiyan/VibeTracker.git
 - opencv-contrib
 - dlib
 
-本地编译完成的 `dlib` `opencv(+opencv-contrib)`  （Debug/Release）放置在：[Google Drive](https://drive.google.com/drive/folders/1iE0ArSiQGJjrxogbej2nU_wGOUXGcum1?usp=share_link)
+本地编译完成的 `dlib19.24` `opencv-contrib420`  （Debug/Release）放置在：[Google Drive](https://drive.google.com/drive/folders/1iE0ArSiQGJjrxogbej2nU_wGOUXGcum1?usp=share_link)
 
 自行编译可以参考的博客：
 
-[C++ opencv-contrib配置过程]([[常用工具\] OpenCV_contrib库在windows下编译使用指南_落痕的寒假的博客-CSDN博客](https://blog.csdn.net/LuohenYJ/article/details/107944236))
+[C++opencv-contrib配置过程](https://blog.csdn.net/LuohenYJ/article/details/107944236)
 
-[C++ dlib 配置过程](https://mo.zju.edu.cn/my_courses
-https://blog.csdn.net/dawnfox/article/details/77282246)
+[C++dlib 配置过程](https://blog.csdn.net/Feeryman_Lee/article/details/103203152)
 
 
 
